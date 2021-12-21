@@ -1,0 +1,18 @@
+days_until_next_birth=2, days=1, days_between_births=3
+0: 2
+1: 1
+
+
+days_until_next_birth=2, days=7, days_between_births=3
+0: 2
+1: 1
+2: 0 
+3: 3 +1
+4: 2
+5: 1
+6: 0 
+7: 3 +1		= 2
+
+
+(int division)
+(days + days_until_next_birth + 1) / days_between_births
